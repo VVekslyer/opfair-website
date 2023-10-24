@@ -18,7 +18,11 @@ export default function Packages() {
     ['Networking with SFU engineering students', '✓', '✓', '✓', '✓'],
     ['Standard social media story: Company name & logo advertised on OpFair’s various platforms', '✓', '✓', '✓', '✓'],
     ['Premium social media story & Newsletter Write-up with company description and information', ' ', ' ', '✓', '✓'],
-    ['Posters: Companies displayed on posters throughout engineering buildings and labs before OpFair', 'Template', 'Template', 'Custom', 'Custom'],
+    ['Posters: Companies displayed on posters throughout engineering buildings and labs', 'Template', 'Template', 'Custom', 'Custom'],
+    ['Advertisement: Information paper pamphlets provided to OpFair attendees and at booths', '✓', '✓', '✓', '✓'],
+    ['Conference: Companies host approved session during OpFair with Faculty of Applied Science', ' ', ' ', 'No time choice', 'May choose time'],
+    ['Industry Mixer: companies invited to socialize with top engineering students', 'Limited seats', 'Limited seats', 'Limited seats', 'Given priority'],
+    ['Scheduled in-person & online sessions after OpFair', '', '', '', '✓'],
   ];
 
   const headerStyles = [
