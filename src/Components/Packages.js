@@ -36,7 +36,7 @@ export default function Packages(props) {
   return (
     <section id="packages">
       <h1>Packages</h1>
-      <Slide left duration={1000}>
+      {/* <Slide left duration={1000}> */}
       <table cellSpacing={20}>
         <thead>
           <tr>
@@ -55,7 +55,7 @@ export default function Packages(props) {
           ))}
         </tbody>
       </table>
-      </Slide>
+      {/* </Slide> */}
     </section>
   );
 }
