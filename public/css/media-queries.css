@@ -4,6 +4,10 @@
 
     /* header styles
    ------------------------------------------------------------------ */
+   header {
+      height: 125vh !important;
+   }
+   
    header .banner-text h1 {
       font: 80px/1.1em 'IBM Plex Mono', monospace;
       letter-spacing: -1px;
@@ -35,11 +39,13 @@
    header .banner { padding-bottom: 12px; }
    header .banner-text h1 {
       font: 78px/1.1em 'IBM Plex Mono', monospace;
-      letter-spacing: -1px;      
+      letter-spacing: -1px;
+      right: 8%;      
    }
    header .banner-text h3 {
       font: 17px/1.9em 'IBM Plex Mono', serif;
-      width: 80%;
+      text-align: left !important;
+      right: 7%;
    }
    header .banner-text hr {
       width: 65%;
@@ -202,8 +208,9 @@
       position: initial;
    }
    header .banner-text h3 {
-      font: 16px/1.9em 'librebaskerville-regular', serif;
+      font: 16px/1.9em 'IBM Plex Mono', serif;
       width: 85%;
+      text-align: center;
    }
    header .banner-text hr {
       width: 80%;
@@ -367,8 +374,10 @@
       text-align: center;
    }
    header .banner-text h3 {
-      font: 14px/1.9em 'librebaskerville-regular', sans-serif;
-      width: 90%;
+      font: 13px/1.9em 'IBM Plex Mono', sans-serif;
+      width: 100%;
+      position: initial;
+      text-align: center !important;
    }
   
    /* header social links */

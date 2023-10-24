@@ -63,7 +63,7 @@ export default function Header(props) {
           </Typing>
           {/* </Fade> */}
           <Zoom delay={5000}>
-            <img className="opfair-img" src="images/opfair.png" style={{ position: 'absolute', right: '15px', bottom: '300px', width: '1000px'}} />
+            <img className="opfair-img" src="images/opfair.png" style={{ position: 'absolute', right: '15px', bottom: '250px', width: '1000px'}} />
           </Zoom>
         </div>
       </div>

@@ -53,6 +53,18 @@ body { background: #0f0f0f; }
     transform: scale(0.45) !important;
     right: -210px !important;
    }
+
+   @media only screen and (max-width: 1024px) {
+      .opfair-img {
+      width: 100% !important;
+      height: auto;
+      transform: initial !important;
+      position: initial !important;
+      padding: 50px 0 0 0;
+      margin: 0 !important;
+       /* transform: scale(0.45) !important; */
+      }
+   }
 }
 
 header {
@@ -266,7 +278,7 @@ ul#nav li.current a { color: #969696; }
 
 
 /* ------------------------------------------------------------------ */
-/* d. Resume Section
+/* d. Attendees Section
 /* ------------------------------------------------------------------ */
 
 #resume {
