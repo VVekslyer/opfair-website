@@ -1,7 +1,20 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Slide } from 'react-reveal';
 
 export default function Packages(props) {
+  const [showComponent, setShowComponent] = useState(false);
+
+  useEffect(() => {
+    // Simulate a delay of 2 seconds (you can adjust this as needed)
+    const delay = setTimeout(() => {
+      setShowComponent(true);
+    }, 500);
+
+    return () => {
+      clearTimeout(delay); // Clear the timeout if the component unmounts
+    };
+  }, []);
+
   const data = [
     ["", "Startup*", "Exhibitor", "Silver", "Gold"],
     ["Prices†", "CA$550.00", "CA$1,050.00", "CA$1,550.00", "CA$1,950.00"],
@@ -35,8 +48,8 @@ export default function Packages(props) {
 
   return (
     <section id="packages">
-      <h1>Packages</h1>
-      {/* <Slide left duration={1000}> */}
+      { showComponent ? <> <h1>Packages</h1>
+      <Slide left duration={1000}>
       <table cellSpacing={20}>
         <thead>
           <tr>
@@ -54,8 +67,8 @@ export default function Packages(props) {
             </tr>
           ))}
         </tbody>
-      </table>
-      {/* </Slide> */}
+      </table> 
+      </Slide> </> : <></>}
     </section>
   );
 }
