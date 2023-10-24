@@ -7,7 +7,7 @@ export default function Gallery(props) {
 
   useEffect(() => {
     if (props.data) {
-      setTimeout(() => setIsLoaded(true), 4000); // delay loading
+      setTimeout(() => setIsLoaded(true), 2000); // delay loading
     }
   }, [props.data]);
 
