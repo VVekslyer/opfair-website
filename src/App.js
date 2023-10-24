@@ -4,6 +4,7 @@ import './App.css';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 import About from './Components/About';
+import Packages from './Components/Packages';
 import Contact from './Components/Contact';
 import Gallery from './Components/Gallery';
 import OpFairAttendees from './Components/OpFairAttendees';
@@ -39,8 +40,9 @@ export default function App() {
     <div className="App">
       <Header data={data.main} />
       <About data={data.main} />
-      <OpFairAttendees data={data.resume} />
+      <OpFairAttendees data={data.attendees} />
       <Gallery data={data.gallery} />
+      <Packages data={data.packages} />
       <Contact data={data.main} />
       <Footer data={data.main} />
     </div>

@@ -44,6 +44,11 @@ export default function Header(props) {
             </a>
           </li>
           <li>
+            <a className="smoothscroll" href="#packages">
+              Packages Info
+            </a>
+          </li>
+          <li>
             <a className="smoothscroll" href="#contact">
               Contact
             </a>
