@@ -4,7 +4,7 @@
     "description":"SFU's largest tech-based career fair",
     "about1": "Since 1993, OpFair has been an annual career fair geared towards the students of SFU’s Faculty of Applied Sciences, which includes the Schools of Computing Science, Engineering Science, Mechatronic Systems Engineering, and our most recent addition, the School of Sustainable Engineering. Our event also welcomes attendees from a variety of graduate programs such as the Professional Masters of Science in Computer Science with concentrations in Big Data, Visual Computing, and Cybersecurity.",
     "about2": "Organized by the Engineering Science Student Society (ESSS), OpFair is the ideal networking opportunity to make connections with a diverse range of tech companies. This is the perfect chance for students in the Faculty of Applied Science to show off their amazing talent to representatives in the industry. Our students know to come prepared and ready to network!",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "contactmessage":"Feel free to contact us if you have any questions",
     "email": "director@opfair.ca",
     "phone": "555-555-5555",
     "address":{
@@ -34,67 +34,6 @@
         "name":"instagram",
         "url":"https://www.instagram.com/sfuopfair/",
         "className":"fa fa-instagram"
-      }
-    ]
-  },
-  "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
-    "education":[
-      {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2017",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
-      },
-      {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2013",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
-      }
-    ],
-    "work":[
-      {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2018 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
-      },
-      {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2017 - February 2018",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
-      }
-    ],
-    "skills":[
-      {
-        "name":"Python",
-        "level":"60%"
-      },
-      {
-        "name":"VueJs",
-        "level":"55%"
-      },
-      {
-        "name":"ReactJs",
-        "level":"50%"
-      },
-      {
-        "name":"CSS",
-        "level":"90%"
-      },
-      {
-        "name":"PHP",
-        "level":"80%"
-      },
-      {
-        "name":"Swift",
-        "level":"50%"
-      },
-      {
-        "name":"JAVA",
-        "level":"80%"
       }
     ]
   },

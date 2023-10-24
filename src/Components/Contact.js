@@ -26,6 +26,7 @@ export default function Contact(props) {
   const zip = props.data.address.zip;
   const phone = props.data.phone;
   const message = props.data.contactmessage;
+  const email = props.data.email;
 
   return (
     <section id="contact">
@@ -122,14 +123,14 @@ export default function Contact(props) {
         <Slide right duration={1000}>
           <aside className="four columns footer-widgets">
             <div className="widget widget_contact">
-              <h4>Address and Phone</h4>
+              <h4>Address and Email</h4>
               <p className="address">
                 {name}
                 <br />
                 {street} <br />
                 {city}, {state} {zip}
                 <br />
-                <span>{phone}</span>
+                <span>{email}</span>
               </p>
             </div>
 
